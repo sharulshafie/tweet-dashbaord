@@ -1,4 +1,4 @@
-!pip install snscrape
+pip install snscrape
 
 import streamlit as st
 
