@@ -17,7 +17,7 @@ st.markdown('##')
 
 username = st.text_input('Enter Username', placeholder=('If @username, type "username"'), help=('Leave blank if you are using the Advance Search'))
 adv = st.text_input('Advance Search', placeholder=("Leave empty if not in use"), help=('Same as twitter search function'))
-number_tweets = st.number_input('Insert Number of Tweets', step=1,min_value=1)
+number_tweets = st.number_input('Insert Number of Tweets', step=1,min_value=100)
 
 pressed = st.button('Enter')
 st.markdown('---')
