@@ -1,3 +1,5 @@
+!pip install snscrape
+
 import streamlit as st
 
 import re
