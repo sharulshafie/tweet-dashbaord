@@ -36,7 +36,7 @@ if pressed:
     limit_tweets = number_tweets
     tweets = []
 
-    for tweet in sntwitter.TwitterSearchScraper(query).get_items():
+    for tweet in sntwitter.TwitterSearchScraper(query, top=True).get_items():
         
         if len(tweets) == limit_tweets:
             break 
